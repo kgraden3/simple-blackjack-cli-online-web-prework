@@ -40,6 +40,7 @@ def hit?(card_total)
     hit_card = deal_card()
     new_card_total = card_total + hit_card
   else
+    card_total
   end
   new_card_total
 end
