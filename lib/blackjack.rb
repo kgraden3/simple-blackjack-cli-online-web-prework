@@ -23,6 +23,7 @@ def end_game(card_total)
     puts "Sorry, you hit #{card_total}. Thanks for playing!" # code #end_game here
   else
     prompt_user
+  end
 end
 
 def initial_round
