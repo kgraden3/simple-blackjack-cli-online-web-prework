@@ -58,7 +58,7 @@ def runner
   initial_round()
   counter = 0
   until counter > 21 do
-  hit?()
+  hit?(counter)
   display_card_total()
   counter += 1
   end
