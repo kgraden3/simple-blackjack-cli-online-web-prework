@@ -62,5 +62,5 @@ def runner
   display_card_total(counter)
   counter += 1
   end
-end_game()
+end_game(counter)
 end
